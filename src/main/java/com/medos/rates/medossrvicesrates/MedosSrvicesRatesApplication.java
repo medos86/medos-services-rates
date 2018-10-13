@@ -1,12 +1,12 @@
-package com.medos.rates.rates;
+package com.medos.rates.medossrvicesrates;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RatesApplication {
+public class MedosSrvicesRatesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RatesApplication.class, args);
+		SpringApplication.run(MedosSrvicesRatesApplication.class, args);
 	}
 }

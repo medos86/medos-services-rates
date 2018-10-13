@@ -1,4 +1,4 @@
-package com.medos.rates.rates.endpoint;
+package com.medos.rates.medossrvicesrates.endpoint;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
