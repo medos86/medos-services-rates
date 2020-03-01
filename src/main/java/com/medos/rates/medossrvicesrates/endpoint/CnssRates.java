@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(CnssRates.PATH)
 public class CnssRates {
 
-    public static final String PATH = "/rates";
+    public static final String PATH = "/api/rates";
 
     @GetMapping("/hello")
     public String getTest() {
