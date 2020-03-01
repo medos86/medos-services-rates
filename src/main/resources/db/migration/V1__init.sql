@@ -1,8 +1,12 @@
-CREATE TABLE users (
-  id bigint(20) NOT NULL AUTO_INCREMENT,
-  username varchar(100) NOT NULL,
-  first_name varchar(50) NOT NULL,
-  last_name varchar(50) DEFAULT NULL,
+CREATE TABLE user (
+  id INT(20) NOT NULL AUTO_INCREMENT,
+  username varchar(20) NOT NULL,
+  password varchar(200) NOT NULL,
+  role varchar(20) NOT NULL,
   PRIMARY KEY (id),
   UNIQUE KEY UK_username (username)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+);
+
+
+INSERT INTO user(username, password, role) VALUES('ADMIN', 'ADMIN', 'ADMIN');
+INSERT INTO user(username, password, role) VALUES('user', 'user', 'USER');
